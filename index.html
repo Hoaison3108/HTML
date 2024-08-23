@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--Là một khai báo doctype (document type declaration) trong HTML, đây là mã khai báo cho trình duyệt
+biết rằng bạn đang sử dụng HTML - phiên bản mới nhất của HTML hiện tại-->
+<html lang="vi">
+  <!-- 
+    1. cặp thẻ <html></html> được sử dụng để định nghĩa phần thân của tài liệu HTML
+    2. Thẻ html có thể dùng kèm thuộc tính lang để chỉ ngôn ngữ được viết của Website.
+    3. Trong 1 file html chỉ có duy nhất 1 cặp thẻ html
+    -->
+  <head>
+    <!-- 
+    1. hẻ head là một phần tử html được sử dụng để chứa các thông tin về trang web mà không được 
+    hiển thị trực tiếp trên trình duyệt của người dùng.
+    2. Chứa các thông tin trong thẻ head như tiêu đề trang, mô tả trang, từ khóa, thông tin tác giả
+    các tập tin CSS và JavaScript được liên kết với trang và nhiều thông tin khác
+    3. Các thông tin trong thẻ head rất quan trọng cho việc tối ưu hóa công cụ tìm kiếm (SEO) vì chúng
+    giúp các công cụ tìm kiếm hiểu được nội dung và ý nghĩa của trang web
+    -->
+    <meta charset="UTF-8" />
+    <!--Bảng mã ký tự cho trang web: hỗ trợ các ký tự ngoài bảng chữ cái tiếng anh, việt, trung, hàn,...-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+    1. sử dụng ddể hỗ trợ multi screen size, hỗ trợ kích thước màn hình hiển thị khác nhau như PC, mobile...
+    2. Hiển thị tiêu đề trên kết quả tìm kiếm (vd: google)
+    3. Width=device-width: set chiều rộng bằng chiều rộng thiết bị
+    4. initial-scale=1.0: tỉ lệ hiển thị trang web là 100%, để tránh bị phóng to thu nhỏ
+    -->
+    <title>Document</title>
+    <!--
+    1. hiển thị tiêu đề trang web trên tab trình duyệt
+    2. hiển thị tiêu đề trên kết quả tìm kiếm (vd google)
+    -->
+  </head>
+  <body>
+    <!-- 
+    1. Thẻ body là một phần tử HTML được sử dụng để chứa nội dung chính của trang web,
+    bao gồm các phần tử như văn bản, hình ảnh, đoạn mã Js, các phần tử định dạng....
+    2. Các phần tử HTML bên trong thẻ body được hiển thị trực tiếp trên trình duyệt của người dùng
+    và chúng tạo thành nội dung chính của trang web.
+    -->
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+    <p>
+      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Aspernatur error nemo perspiciatis ipsa laborum
+      distinctio architecto sequi sunt nesciunt doloremque consequatur fuga
+      <p>
+          neque blanditiis qui veritatis possimus ea deserunt explicabo? Reiciendis,
+          officia et repudiandae maxime doloremque obcaecati? 
+      </p>
+      quibusdam quam, distinctio neque nobis perferendis quaerat similique
+      placeat a ex? Distinctio repellendus corrupti eligendi unde quasi quos
+      earum obcaecati qui consequuntur. 
+    </p>
+    <p>
+        thu đi để lại lá vàng <br/>
+        nàng đi để lại vô vàng nỗi đau <br/>
+    </p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <h2>học Emet</h2>
+    <!-- ul>li -->
+    <ul>
+        <li></li>
+    </ul>
+    <!-- ul>li*4 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+     <!-- ul>li*4{Item$} -->
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+    </ul>
+    <ol reversed>
+        <li>nội dung 2</li>
+        <li>nội dung 1</li>
+    </ol>
+    <ol type="I">
+        <li>nội dung 1</li>
+        <li>nội dung 2</li>
+    </ol>
+    <ol type="I">
+        <li>Mở bài</li>
+        <li>Thân bài
+            <ol type="1">
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet.
+                    <ol type="a">
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Kết bài</li>
+    </ol>
+
+    <a href="">Click vào link</a>
+    
+
+  </body>
+</html>
+<!-- 
+    <h></h> thẻ h được sử dụng để định nghĩa tiêu đề của trang web 6 cấp độ từ h1 đến h6.
+    <p></p>thẻ Paragraph để chứa các đoạn văn bản 
+    <b></b> Thẻ bold in đậm hoặc dùng <strong> thay thế để thể hiện nội dung quan trọng 
+    <i></i> thẻ italic in nghiêng hoặc dùng <em> -emphasis để nhấn mạnh nội dung 
+        thẻ <Strong> và <em> có mang ngữ nghĩa trình duyệt sẽ hiểu là nó quan trọng
+    <u></u> thẻ underline gạch chân 
+    <a></a> thẻ anchor gắn kèm đường dẫn 
+    <img> thẻ image chứa hình ảnh 
+    <ul></ul> thẻ un-ordered list danh sách không có thứ tự 
+    <ol></ol> thẻ Ordered list danh sách có thứ tự 
+    <li>/li> thẻ list item là thẻ con trực tiếp của ul và ol
+    github.com/Galailaptrinh -->
+
+<!--
+    <br> thẻ Break phá vỡ hoặc ngắt dòng
+    <hr> thẻ Horizontal rule tạo đường kẻ ngang trên trang 
+    <a></a> thẻ anchor gắn kèm liên kết email, phone
+    href (hypertext reference) được dùng để khai báo URL mà trang web sẽ được chuyển đến)
+    -->
+    <a href="http://tuhoc.cc" target="_blank">click link để tới trang web</a>
+
+    <a href="">nếu thuộc tính href trống thì tải lại trang</a>
+    <a href="#">nếu thuộc tính href là # thì trở lại đầu trang</a>
+<!-- một số thuộc tính cơ bản của target -->
+    <a href="http://tuhoc.cc" target="_self">mở lại trang hiện tại</a><br>
+    <a href="http://tuhoc.cc">Mở tại trang hiện tại</a>
+    <a href="http://tuhoc.cc" target="_blank">Mở trong tab mới</a>
+
+<!-- Liên kết với số điện thoại -->
+     <a href="tel: 0123456789">0123456789</a>
+<!-- Liên kết với email -->
+     <a href="mailto: tuhoc.cc@gmail.com">tuhoc.cc@gmail.com</a>
+<!-- Thuộc tính src (source image file) được sử dụng để chỉ định đường dẫn tới tập tin hình ảnh 
+     thuộc tính alt (alternative) thay thế để:
+     + Hiển thị text khi link ảnh lỗi
+     + Hỗ trợ trình đọc màn hình cho người khiếm thị
+     + Công cụ tìm kiếm thu thập dữ liệu trên trang
+     Thuộc tính Width và height trong img là kích thước của ảnh, nên cài đặt 1 chiều để kích thước ảnh hài hòa-->
+     <img src="https://images.unsplash.com/photo-1724250267025-08b545ab90dc" alt="hình ảnh thiên nhiên hoa" width="100" >
+     <img src="./cosmos-6680031_1280.jpg" alt="image" width="200">
+     <img src="./tuhoc-html-css-main/tuhoc-html-css-main/2.lythuyet-bai14-lamviecpath/boy.jpg" width="200" >
+     <img src="/tuhoc-html-css-main/tuhoc-html-css-main/2.lythuyet-bai14-lamviecpath/boy.jpg" width="200">
+     
